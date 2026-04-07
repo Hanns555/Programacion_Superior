@@ -1,0 +1,11 @@
+Ejercicio 1
+mkdir -p Hanns/{IMT123,IMT131,IMT221,INB212,INB234,IND260}
+tree /home/hanns/Hanns
+tree /home/hanns/Hanns > /home/hanns/Hanns/Arbol.txt
+rm -r Hanns
+Ejercicio 2
+cp -r Hanns/IMT131 Escritorio
+Ejercicio 3 
+chmod 751 /home/hanns/Hanns/Arbol.txt 
+Ejercicio 4
+cp -r /home/hanns/Hanns/IMT123 /home/hanns/Hanns/IMT131/Copia\ Materia
