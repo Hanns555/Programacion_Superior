@@ -1,0 +1,53 @@
+void ordenarUsuarios_anio(vector<Persona> &Lista_Personas){
+    for(int i = 0; i < Lista_Personas.size(); i++){
+        for(int j = i+1; j < Lista_Personas.size(); j++){
+            if(Lista_Personas[i].ObtenerAnio() > Lista_Personas[j].ObtenerAnio()){
+                Persona temp = Lista_Personas[i];
+                Lista_Personas[i] = Lista_Personas[j];
+                Lista_Personas[j] = temp;
+            }
+        }
+    }
+}
+
+void ordenarUsuarios_nombre(vector<Persona> &Lista_Personas){
+    for(int i = 0; i < Lista_Personas.size(); i++){
+        for(int j = i+1; j < Lista_Personas.size(); j++){
+            if(Lista_Personas[i].ObtenerNombre() > Lista_Personas[j].ObtenerNombre()){
+                Persona temp = Lista_Personas[i];
+                Lista_Personas[i] = Lista_Personas[j];
+                Lista_Personas[j] = temp;
+            }
+        }
+    }
+}
+
+void Menu(CuentaBancaria Xavier){
+    int opcion;
+    do{
+        cout<<"Ingrese una opcion: "<<endl;
+        cout<<"1. Depositar"<<endl;
+        cout<<"2. Retirar"<<endl;
+        cout<<"3. Saldo"<<endl;
+        cout<<"0. Salir"<<endl;
+        cin>>opcion;
+        switch (opcion){
+            case 1:
+            Xavier.Depositar();
+            break;
+            case 2:
+            Xavier.Retirar();
+            break;
+            case 3:
+            Xavier.Mostra_Saldo();
+            break;
+            default:
+            cout<<"Opcion invalida"<<endl;
+            cout << "Presiona Enter para continuar...";
+            cin.ignore();
+            cin.get();
+            system("clear");
+        }
+
+    } while(opcion != 0);
+}
