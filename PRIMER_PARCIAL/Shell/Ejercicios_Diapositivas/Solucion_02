@@ -1,0 +1,18 @@
+Ejercicio 1
+touch Archivo.cpp
+Ejercicio 2
+Camino Largo
+mkdir Ejercicio2
+cd /home/hanns/Ejercicio2
+touch archivo1
+touch archivo2
+cd 
+rm -r Ejercicio2
+Camino Corto
+mkdir Ejercicio2 && cd Ejercicio2 && touch archivo1 && touch archivo2 && cd
+rm -r Ejercicio2
+Ejercicio 3 y 4
+Las diferencias son que rmdir borra carpetas vacias mientras que con rm solo borro archivos necesito -r para borrar directorios pero borrara todo lo que hya ne el directorio
+Ejercicio 5
+No no puede tenemos varias alternativas nano,gedit,cat,echo,etc.
+

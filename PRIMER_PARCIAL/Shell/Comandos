@@ -1,0 +1,40 @@
+Comandos
+pwd
+ls
+cd
+clear
+mkdir
+mkdir -p creacion multiple de directorios
+rmdir
+rm <Nombre_de_Archivo> y rm -r <Directorio y todo lo que tine dentro lo borra>
+touch
+cat 
+tree orden alfabetico
+tree -r orden alfabetico invertido
+tree -t orden de modificacion
+tree -U orden en el disco
+echo "texto"
+echo "texto" > archivo.texto
+echo "texto" >> archivo.texto
+gedit
+nano
+cp ruta de lo que quiero copiar  ruta donde lo voy a poner la copiar
+mv ruta de lo que voy a mover  ruta donde se dirige el archivo
+
+
+Comandos BUsqueda
+find busca archivos o directorios
+grep busca palabras o frases
+
+
+
+Comando Poco Utiles
+apt search <PAQUETE>
+apt install <pKgkNAME>
+apt remove <pKgkNAME>
+apt update
+apt upgrade
+chown
+chmod
+sudo hacer como super usuario
+su cambiar el usuario

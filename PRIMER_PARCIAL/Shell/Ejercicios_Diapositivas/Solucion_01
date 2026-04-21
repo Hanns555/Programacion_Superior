@@ -1,0 +1,9 @@
+Ejercicio 1
+cd /home/hanns/Escritorio
+Ejercicio 2
+cd ../Descargas  o  cd /home/hanns/Descargas
+Ejercicio 3
+Uno es en enrutamiento absoluto mientras que el otro puede ser enrutamiento absoluto o relativo
+Ejercicio 4
+Se usa ".." para navegar cuando quiero ir hacia atras en una carpeta por ejemplo en el ejercicio 2 estaba en Escritorio voy hacia atras y luego entro a la carpeta Descargas
+
