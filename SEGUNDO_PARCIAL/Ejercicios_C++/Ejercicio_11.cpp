@@ -4,17 +4,12 @@ using namespace std;
 //ciclo basico con un solo int; new y usar delete
 
 int main(){
-	int x=0;
 	int *acumulador_x=new int[5];
-	while(x<5){
-		acumulador_x=&x;
-		x++;
+	for(int i=0;i<5;i++){
+		acumulador_x[i]=(i+1);
 	}
-	x=0;
-	cout<<"el arreglo es: "<<endl;
-	while(x<5){
-			cout<<*acumulador_x<<endl;
-			x++;
+	for(int i=0;i<5;i++){
+		cout<<acumulador_x[i]<<endl;
 	}
 	delete [] acumulador_x;
 	return 0;
