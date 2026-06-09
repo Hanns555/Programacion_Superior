@@ -1,0 +1,3 @@
+logs/app1/error.log/Akemi.log:2026-03-20 ERROR Fallo en conexión Akemi
+logs/app1/access.log/Hanns.log:2026-03-20 ERROR Fallo en conexión Hanns
+logs/app3/system.log/Juan.log:2026-03-20 ERROR Fallo en conexión Juan

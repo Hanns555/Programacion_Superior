@@ -1,0 +1,4 @@
+2026-12-11 LOG "Mensaje de log1"
+2026-01-10 LOG "Mensaje de log2"
+2026-02-12 LOG "Mensaje de log3"
+2026-44-54 LOG "Mensaje de log4"
